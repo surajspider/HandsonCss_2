@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    border: 10px groove greenyellow;
+    background-image: url("./10505079_4478925.jpg");
+    background-image: url("./10505079_4478925.jpg");
+    background-size: contain;
+}
+
+.container {
+    margin: 0px;
+}
+
+#box1 {
+    margin: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    height: 120px;
+    background-color: black;
+    border: 7px solid red;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    line-height: 25px;
+}
+
+#pad {
+    padding-left: 40px;
+}
+
+#box2 {
+    width: 410px;
+    padding-bottom: 7px;
+    padding-left: 80px;
+    padding-top: 25px;
+    border: 7px solid red;
+    border-radius: 35px;
+    background-color: black;
+    margin-top: -135px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+#box2 a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    pointer-events: none;
+    padding: 35px 2px 12px 10px;
+}
+
+#box3 {
+    margin-top: -170px;
+    margin-left: 1050px;
+    width: 350px;
+    height: 150px;
+    border: 7px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+    font-style: italic;
+}
+
+.intent {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#circle {
+    margin: 200px 0px 50px 50px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border: 7px solid grey;
+    border-radius: 50%;
+    background-color: rgb(44, 176, 132);
+    /* position: relative; */
+}
+
+#content {
+    margin-top: 75px;
+    /* position: absolute; */
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+.content-p {
+    text-align: center;
+}
+
+#forms {
+    width: fit-content;
+    margin-top: -500px;
+    margin-left: 800px;
+    border: 7px dashed red;
+    background-color: aliceblue;
+}
+
+#form-data {
+    text-align: center;
+    color: brown;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#menu {
+    margin: 50px 0px 20px 500px;
+    text-align: center;
+    width: 450px;
+    border: 5px solid red;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+.menu-items {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.items {
+    color: #1d399f;
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 30px;
+    margin: 30px 20px 30px 80px;
+    width: 350px;
+    height: fit-content;
+}
+
+.items h1 {
+    font-size: 45px;
+}
